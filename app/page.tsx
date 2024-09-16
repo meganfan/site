@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function Home() {
   return (
     <ul className="md:list-disc list-inside space-y-2 md:space-y-4">

@@ -1,7 +1,7 @@
-import type { Metadata } from "next";
-import "./globals.css";
-import Image from "next/image";
 import avatar from "@/public/jeffrey.jpg";
+import type { Metadata } from "next";
+import Image from "next/image";
+import "./globals.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://yao.dev"),
@@ -22,8 +22,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="[scrollbar-gutter:stable]">
-      <body className="antialiased">
-        <div className="min-h-screen flex flex-col p-8 md:p-12 md:my-12 bg-white max-w-[60ch] mx-auto w-full space-y-6">
+      <body className="antialiased bg-white dark:bg-gray-900 dark:text-gray-200">
+        <div className="min-h-screen flex flex-col p-8 md:p-12 md:my-12 max-w-[60ch] mx-auto w-full space-y-6">
           <Header />
           <main>{children}</main>
           <Footer />
