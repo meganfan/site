@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <ul className="list-disc list-inside space-y-4">
+    <ul className="md:list-disc list-inside space-y-2 md:space-y-4">
       <li>Currently engineering TikTok LIVE at TikTok.</li>
       <li>
         Focused on crafting beautiful, intentional products while learning and
