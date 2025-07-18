@@ -6,7 +6,8 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Jeffrey Yao",
-  description: "Technical co-founder @ stealth.",
+  description:
+    "Technical co-founder @ stealth AI startup. Based in Sydney, Australia.",
 };
 
 export default function RootLayout({
