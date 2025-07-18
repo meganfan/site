@@ -1,20 +1,48 @@
+import { Link } from "./components/Link";
+
 export default function Home() {
   return (
-    <ul className="md:list-disc list-inside space-y-2 md:space-y-4">
-      <li>Currently engineering TikTok LIVE at TikTok.</li>
-      <li>
-        Focused on crafting beautiful, intentional products while learning and
-        having fun.
-      </li>
-      <li className="italic">
-        Thinking about how to help people live more present, intentional lives
-        in the real world by creating and re-imagining digital + physical
-        interfaces.
-      </li>
-      <li>
-        In my spare time: weightlifting, running, listening to hip-hop and R&B,
-        and exploring—in no particular order.
-      </li>
-    </ul>
+    <article className="flex justify-center p-8 py-12 md:p-16">
+      <main className="w-full max-w-2xl space-y-6">
+        <header className="space-y-1">
+          <h1 className="font-medium">Jeffrey Yao</h1>
+          <time className="text-neutral-500/75">Updated July 18, 2025</time>
+        </header>
+
+        <section className="space-y-4">
+          <p>I'm 23 and based in Sydney, Australia.</p>
+          <p>
+            I'm the technical co-founder of a stealth AI start-up. Before that,
+            I shaped products at{" "}
+            <Link href="https://relevanceai.com">Relevance AI</Link> from seed
+            to Series A. I built infrastructure, internal tooling and apps at{" "}
+            <Link href="https://everlab.com.au">Everlab</Link> as a founding
+            engineer, then worked at{" "}
+            <Link href="https://www.tiktok.com/about">TikTok</Link>.
+          </p>
+          <p>
+            I enjoy building at the intersection of engineering, product and
+            design to create magical experiences.
+          </p>
+          <p>
+            Aside from work, I love sunrises/sunsets, good food, long walks,
+            time spent with loved ones, and most importantly — time to learn,
+            think, create and do.
+          </p>
+          <p>
+            You can reach me at{" "}
+            <Link href="https://x.com/jeffdyao">@jeffreydyao</Link>,{" "}
+            <Link showIcon={false} href="mailto:jeffrey@yao.dev">
+              jeffrey@yao.dev
+            </Link>{" "}
+            or on{" "}
+            <Link href="https://www.linkedin.com/in/jeffreydyao/">
+              LinkedIn
+            </Link>
+            .
+          </p>
+        </section>
+      </main>
+    </article>
   );
 }
