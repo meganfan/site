@@ -19,7 +19,7 @@ export const Link: FC<LinkProps> = ({
       className={`inline-block ${className || ""}`}
       {...attr}
     >
-      <span className="text-sky-600 hover:opacity-60 duration-[250ms] transition">
+      <span className="text-purple-600 hover:opacity-60 duration-[250ms] transition">
         {children}
       </span>
       {showIcon ? (

@@ -6,9 +6,9 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Jeffrey Yao",
+  title: "Megan Fan",
   description:
-    "Technical co-founder @ stealth AI startup. Based in Sydney, Australia.",
+    "Product co-founder @ stealth AI startup. Based in Sydney, Australia.",
 };
 
 export default function RootLayout({
