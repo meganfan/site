@@ -10,7 +10,7 @@ export default function Home() {
         </header>
 
         <section className="space-y-4">
-          <p>I'm 24 and based in Sydney, Australia.</p>
+          <p>I'm 24, based in Sydney 🇦🇺 but grew up in Auckland, New Zealand 🥝.</p>
           <p>
             I'm the product co-founder of a stealth AI start-up. Before that,
             I worked in Strategy and Operations at{" "}
